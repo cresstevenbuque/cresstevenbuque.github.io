@@ -1,0 +1,335 @@
+/* Education section styles */
+.about-me .education-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-me .education-list li {
+    margin-bottom: 20px;
+  }
+  
+  .about-me .education-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-me .education-item span:first-child {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .about-me .education-item .date {
+    flex: 1;
+    text-align: center;
+    color: #666;
+  }
+  
+  /* Affiliations section styles */
+  .about-me .affiliations-list {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .about-me .affiliations-list li {
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  /* Assuming a common class for section titles */
+  .section-title h4 {
+    font-size: 1.5em; /* or the same size used for About Me and Education */
+    color: #333;
+    position: relative;
+    padding-bottom: 10px;
+  }
+  
+  .section-title h4::after {
+    content: '';
+    display: block;
+    width: 50px; /* Adjust width as necessary */
+    height: 2px; /* Adjust thickness as necessary */
+    background-color: #007bff; /* Match the underline color */
+    margin: 8px 0 0;
+  }
+  
+  /* General dark background for sections to ensure consistency */
+  .section.dark-background {
+    background-color: #000; /* Match this color to the exact shade used in other sections */
+    color: #fff;
+    padding: 60px 0;
+  }
+  
+  /* White box styling similar to 'About Me' section */
+  .training-content-box {
+    background-color: #111; /* Darker gray for a similar look */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect */
+  .training-content-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style for Training and Seminar and Certificates Section Titles and Descriptions */
+  #training .section-title h2,
+  #training .section-title p,
+  #certificates .section-title h2,
+  #certificates .section-title p {
+    color: #ffffff;
+  }
+  
+  
+  
+  /* Center the section title and skill description */
+  .skills .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    /* Center the icon-boxes within the skills section */
+    .skills .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    
+    /* Center align text and icons inside each skill box */
+    .skills .icon-box {
+      position: relative;
+      text-align: center;
+      padding: 20px; /* Adjust padding for consistency */
+      margin: 10px; /* Adds space between each skill box */
+      max-width: 280px; /* Restricts width to make it responsive and centered */
+      flex: 1 0 200px; /* Allow flex items to grow/shrink */
+      border-radius: 8px; /* Optional: rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for emphasis */
+    }
+    
+    /* Icon styling for better visibility */
+    .skills .icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #555; /* Customize icon color */
+    }
+    
+  /* Center the section title and skill description */
+  .skills .section-title {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    /* Center the icon-boxes within the skills section */
+    .skills .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center; /* Center the content */
+    }
+    
+    /* Center align text and icons inside each skill box */
+    .skills .icon-box {
+      position: relative;
+      text-align: center;
+      padding: 20px; /* Adjust padding for consistency */
+      margin: 10px; /* Adds space between each skill box */
+      max-width: 300px; /* Restricts width for responsive design */
+      flex: 1 0 250px; /* Allow flex items to grow/shrink */
+      border-radius: 8px; /* Optional: rounded corners */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: shadow for emphasis */
+    }
+    
+    /* Icon styling for better visibility */
+    .skills .icon {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #555; /* Customize icon color */
+    }
+    
+    /*SKILLS*/
+    .skill-card {
+      min-height: 300px; /* Set a minimum height for equal sizing */
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    
+    .skill-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    }
+  
+   /*PORTFOLIO*/
+   /* Portfolio Item Styling */
+  .portfolio-item {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .portfolio-item h4 {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    color: #333;
+  }
+  
+  .portfolio-item p {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  .section-title h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .section-title p {
+    color: #666;
+  }
+  
+  /* Centered text and margins for modal content */
+  .modal-body {
+    font-size: 1rem;
+    color: #333;
+  }
+  .modal-title {
+    font-size: 1.5rem;
+    color: #555;
+  }
+  
+  /* Style for Portfolio Section */
+  .portfolio-item h4 {
+    color: #ffffff;
+  }
+  
+    /*CONTACTS*/
+    /* Transparent background */
+  .contact {
+      position: relative;
+      background: rgba(255, 255, 255, 0.7); /* Adjust the last value for transparency (0.0 to 1.0) */
+      padding: 40px 0;
+    }
+    
+  /* Set black background only on the section containers, not affecting inner elements */
+  .about, .skills, .certificates, .portfolio, .contact {
+      background-color: #000000;
+    }
+  
+    /* Set the background color of sections */
+  .skills, .portfolio, .contact {
+      background-color: #000000; /* Black background */
+      color: #ffffff; /* White text color for better visibility */
+    }
+    
+    /* Additional styling for elements like section titles, paragraphs, and links */
+    .skills h2, .portfolio h2, .contact h2, .certificates h2,
+    .skills p, .portfolio p, .contact p {
+      color: #fffcfc; /* White color for titles and paragraphs */
+    }
+  
+  .contact .info-item h3,
+  .contact .info-item p {
+      color: black;
+  }
+    
+  .certificates .certificate-item h4,
+  .certificates .certificate-item .certificate-description {
+      color: #ffffff;
+  }
+  
+  .skills a, .portfolio a, .contact a {
+      color: #fefefefa; /* White color for links */
+    }
+    
+    .skills .card-title, .portfolio .portfolio-info h4, .contact .info-item h3 {
+      color: #000000; /* White color for specific card titles and info headers */
+    }
+    
+    .skill-card .card-title, .skill-card .card-text {
+      color: black;
+  }
+  
+  
+  /* Preloader full-screen overlay */
+  #preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; /* Background color for the preloader */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  /* Preloader spinner animation */
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db; /* Color for spinner border */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 3s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Neon Box with Color Changing Glow */
+  .neon-box {
+    padding: 20px;
+    background-color: #000; /* Dark background to enhance glow */
+    border-radius: 10px;
+    animation: neonGlow 3s infinite; /* Animation with 3-second cycle */
+  }
+  
+  @keyframes neonGlow {
+    0% {
+      box-shadow: 
+        0 0 10px red, 
+        0 0 20px red, 
+        0 0 30px red, 
+        0 0 40px red;
+    }
+    33% {
+      box-shadow: 
+        0 0 10px green, 
+        0 0 20px green, 
+        0 0 30px green, 
+        0 0 40px green;
+    }
+    66% {
+      box-shadow: 
+        0 0 10px blue, 
+        0 0 20px blue, 
+        0 0 30px blue, 
+        0 0 40px blue;
+    }
+    100% {
+      box-shadow: 
+        0 0 10px red, 
+        0 0 20px red, 
+        0 0 30px red, 
+        0 0 40px red;
+    }
+  }
