@@ -410,6 +410,13 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script>
+    // Hide the preloader when the page is fully loaded
+    window.addEventListener('load', function() {
+      document.getElementById('preloader').style.display = 'none';
+    });
+  </script>
+  
   <footer class="footer section bg-dark text-white">
     <div class="container text-center py-3">
       <p>Connect with me:</p>
